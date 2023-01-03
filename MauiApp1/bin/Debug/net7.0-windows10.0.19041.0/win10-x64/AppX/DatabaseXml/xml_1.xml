@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUsers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Users>
+    <UserFirstName>Mohammed</UserFirstName>
+    <UserLastName>Alfadhel</UserLastName>
+    <HomePhone>07460251548</HomePhone>
+    <Note>user one</Note>
+  </Users>
+  <Users>
+    <UserFirstName>Hasan</UserFirstName>
+    <UserLastName>Alfadhel</UserLastName>
+    <HomePhone>07430251548</HomePhone>
+    <Note>user Two</Note>
+  </Users>
+  <Users>
+    <UserFirstName>Ahmed</UserFirstName>
+    <UserLastName>Alfadhel</UserLastName>
+    <HomePhone>07460301548</HomePhone>
+    <Note>user Three</Note>
+  </Users>
+  <Users>
+    <UserFirstName>Rasha</UserFirstName>
+    <UserLastName>AlMohy</UserLastName>
+    <HomePhone>07460253008</HomePhone>
+    <Note>user Four</Note>
+  </Users>
+</ArrayOfUsers>

@@ -1,0 +1,1 @@
+C:\Users\PC Mohammed\Desktop\VS\WPF\c#\MAUI\xml\xml_1\MauiApp1\MauiApp1\MauiApp1.csproj;x64

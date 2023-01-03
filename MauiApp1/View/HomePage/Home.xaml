@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.View.HomePage.Home"
+             Title="Home">
+    <StackLayout>
+        <Label 
+            Text="Home"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <StackLayout>
+            <ListView x:Name="lstUsers">
+                <ListView.ItemTemplate>
+                    
+                    <DataTemplate>
+                        <TextCell Text="{Binding UserFirstName}"
+                                  Detail="{Binding UserLastName}"
+                                  ></TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+
+        <Button Text="Check XML file" Clicked="Button_Clicked_WriteXML"></Button>
+        <Button Text="Read XML file" Clicked="Button_Clicked_ReadXML"></Button>
+    </StackLayout>
+</ContentPage>
